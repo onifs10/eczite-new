@@ -14,7 +14,7 @@
                 <h1 class="content-1-head">Get a ride at your convenience</h1>
                 <span class="quotes">Eczite is fueled for your movement</span>
                 <div class="button-container">
-                    <button class="ride-button" onclick="Book()">Book A Ride</button><i></i>
+                    <button class="ride-button" @click="book">Book A Ride</button><i></i>
                 </div>
             </div>
             <div class="content-item item-2">
@@ -70,6 +70,11 @@ import FormElement from '@/components/Form'
 export default {
     components : {
         FormElement
+    },
+    methods : {
+        book() {
+            window.open("https://wa.me/+2347064400337", "_blank");
+        }
     }
 }
 </script>
@@ -208,9 +213,13 @@ section[class ^= 'content-1']{
     background-color: darkgreen;;
 }
 
-.ride-button:hover , .ride-button:active{
+.ride-button:hover , .ride-button:active {
     background-color: white;
     color: rgba(124, 256, 0, 1);
+    outline: none;
+}
+.ride-button:focus{
+    outline: none;
 }
 .inputGroup  input, .inputGroup select {
     border : none;
