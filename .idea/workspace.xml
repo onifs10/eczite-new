@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e48a0122-8272-4370-82f1-4f05fb23760c" name="Default Changelist" comment="" />
+    <list default="true" id="e48a0122-8272-4370-82f1-4f05fb23760c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,7 +194,7 @@
       <workItem from="1609103778495" duration="357000" />
       <workItem from="1609153210994" duration="189000" />
       <workItem from="1609153441253" duration="14255000" />
-      <workItem from="1609183970799" duration="3080000" />
+      <workItem from="1609183970799" duration="4510000" />
     </task>
     <servers />
   </component>
@@ -210,9 +218,9 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state x="196" y="28" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1609153931800" />
-    <state x="386" y="188" width="592" height="400" key="search.everywhere.popup" timestamp="1609162199775">
+    <state x="386" y="188" width="592" height="400" key="search.everywhere.popup" timestamp="1609191759116">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state x="386" y="188" width="592" height="400" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1609162199775" />
+    <state x="386" y="188" width="592" height="400" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1609191759116" />
   </component>
 </project>

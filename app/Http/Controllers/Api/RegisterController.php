@@ -31,7 +31,7 @@ class RegisterController extends Controller
     {
         return [
             'name' => 'required|string',
-            'number' => 'required|numeric',
+            'number' => 'required|numeric|unique:users,number',
             'type' => 'required|string|in:passenger,driver'
         ];
     }
