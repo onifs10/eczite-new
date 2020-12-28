@@ -73,7 +73,7 @@ export default {
     },
     methods : {
         book() {
-            window.open("https://wa.me/+2347064400337", "_blank");
+            window.open(encodeURI("https://wa.me/+2347064400337/?text=i need a ride"), "_blank");
         }
     }
 }
