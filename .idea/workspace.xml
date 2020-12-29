@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e48a0122-8272-4370-82f1-4f05fb23760c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/Pages/WelcomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/WelcomePage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +193,7 @@
       <workItem from="1609153210994" duration="189000" />
       <workItem from="1609153441253" duration="14255000" />
       <workItem from="1609183970799" duration="6681000" />
+      <workItem from="1609245803456" duration="120000" />
     </task>
     <servers />
   </component>

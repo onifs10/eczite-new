@@ -94,6 +94,12 @@ export default {
     height: 80px;
     background: #020000;
 }
+.content-1-head{
+    font-size: 1.5em;
+}
+.quotes{
+    font-size: 1.2em;
+}
 .logo {
     flex: 0 0 90%;
     margin-left: 5%;
