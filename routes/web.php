@@ -20,3 +20,10 @@ Route::get('/', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia\Inertia::render('Dashboard');
 })->name('dashboard');
+
+Route::get('/register', function (){
+   return redirect('/');
+});
+Route::get('/login', function (){
+    return redirect('/');
+});

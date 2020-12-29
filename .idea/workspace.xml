@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e48a0122-8272-4370-82f1-4f05fb23760c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/js/Pages/WelcomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/WelcomePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +194,7 @@
       <workItem from="1609153210994" duration="189000" />
       <workItem from="1609153441253" duration="14255000" />
       <workItem from="1609183970799" duration="6681000" />
-      <workItem from="1609245803456" duration="120000" />
+      <workItem from="1609245803456" duration="656000" />
     </task>
     <servers />
   </component>
@@ -217,9 +218,9 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state x="196" y="28" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1609153931800" />
-    <state x="386" y="188" width="592" height="400" key="search.everywhere.popup" timestamp="1609192574755">
+    <state x="386" y="188" width="592" height="400" key="search.everywhere.popup" timestamp="1609246360081">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state x="386" y="188" width="592" height="400" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1609192574755" />
+    <state x="386" y="188" width="592" height="400" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1609246360081" />
   </component>
 </project>
