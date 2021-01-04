@@ -5,8 +5,8 @@
                 Eczite
             </div>
             <div class="top-nav">
-                <a class="nav-btn  " href="/">login</a>
-                <a href="" class="nav-btn">sign up</a>
+                <a class="nav-btn " href="" @click.prevent="upComing()">login</a>
+                <a href="" class="nav-btn" @click.prevent="upComing()">sign up</a>
             </div>
         </header>
         <section class="content-1 ">
@@ -62,19 +62,39 @@
             <div class="why-grid-item"> <i class="fa fa-handshake-o" aria-hidden="true"></i> Tested and Trusted </div>
         </div>
     </section>
+        <modal ref="comingNotice">
+            <template v-slot:header>
+                Notice !!!
+            </template>
+            <template v-slot:body>
+                this Feature is not available yet .. please bear with us
+            </template>
+            <template v-slot:footer>
+                <div>
+                    <button @click="$refs.comingNotice.closeModal()">Cancel</button>
+                    <button @click="$refs.comingNotice.closeModal()">Save</button>
+                </div>
+            </template>
+        </modal>
     </div>
 </template>
 
 <script>
-import FormElement from '@/components/Form'
+import Modal from '@/components/Modal';
+import FormElement from '@/components/Form';
 export default {
     components : {
-        FormElement
+        FormElement,
+        Modal
     },
     methods : {
         book() {
             window.open(encodeURI("https://wa.me/+2347064400337/?text=i need a ride"), "_blank");
+        },
+        upComing() {
+            this.$refs.comingNotice.openModal();
         }
+
     }
 }
 </script>
