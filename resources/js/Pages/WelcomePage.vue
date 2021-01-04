@@ -6,7 +6,7 @@
             </div>
             <div class="top-nav">
                 <a class="nav-btn " href="" @click.prevent="upComing()">login</a>
-                <a href="" class="nav-btn" @click.prevent="upComing()">sign up</a>
+<!--                <a href="" class="nav-btn" @click.prevent="upComing()">sign up</a>-->
             </div>
         </header>
         <section class="content-1 ">
@@ -71,8 +71,7 @@
             </template>
             <template v-slot:footer>
                 <div>
-                    <button @click="$refs.comingNotice.closeModal()">Cancel</button>
-                    <button @click="$refs.comingNotice.closeModal()">Save</button>
+                    <small>regards eczite</small>
                 </div>
             </template>
         </modal>

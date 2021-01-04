@@ -4344,7 +4344,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -49978,7 +49977,7 @@ var render = function() {
     [
       _c("header", { staticClass: "header" }, [
         _c("div", { staticClass: "logo" }, [
-          _vm._v("\n            Eczite\n        ")
+          _vm._v("\n                Eczite\n            ")
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "top-nav" }, [
@@ -49995,21 +49994,6 @@ var render = function() {
               }
             },
             [_vm._v("login")]
-          ),
-          _vm._v(" "),
-          _c(
-            "a",
-            {
-              staticClass: "nav-btn",
-              attrs: { href: "" },
-              on: {
-                click: function($event) {
-                  $event.preventDefault()
-                  return _vm.upComing()
-                }
-              }
-            },
-            [_vm._v("sign up")]
           )
         ])
       ]),
@@ -50052,7 +50036,7 @@ var render = function() {
           {
             key: "header",
             fn: function() {
-              return [_vm._v("\n            Notice !!!\n        ")]
+              return [_vm._v("\n                Notice !!!\n            ")]
             },
             proxy: true
           },
@@ -50061,7 +50045,7 @@ var render = function() {
             fn: function() {
               return [
                 _vm._v(
-                  "\n            this Feature is not available yet .. please bear with us\n        "
+                  "\n                this Feature is not available yet .. please bear with us\n            "
                 )
               ]
             },
@@ -50070,33 +50054,7 @@ var render = function() {
           {
             key: "footer",
             fn: function() {
-              return [
-                _c("div", [
-                  _c(
-                    "button",
-                    {
-                      on: {
-                        click: function($event) {
-                          return _vm.$refs.comingNotice.closeModal()
-                        }
-                      }
-                    },
-                    [_vm._v("Cancel")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "button",
-                    {
-                      on: {
-                        click: function($event) {
-                          return _vm.$refs.comingNotice.closeModal()
-                        }
-                      }
-                    },
-                    [_vm._v("Save")]
-                  )
-                ])
-              ]
+              return [_c("div", [_c("small", [_vm._v("regards eczite")])])]
             },
             proxy: true
           }
