@@ -71,7 +71,7 @@
             </template>
             <template v-slot:footer>
                 <div>
-                    <small>regards eczite</small>
+                    <small>regards eczite </small>
                 </div>
             </template>
         </modal>
